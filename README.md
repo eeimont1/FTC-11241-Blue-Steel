@@ -1,14 +1,8 @@
-## NOTICE
-
-This repository contains the FTC 11241 Blue Steel Team Code and FTC SDK in a single Android Studio project for the DECODE (2025-2026) competition season.
-
 ## Welcome!
-This GitHub repository contains the source code that is used to build an Android app to control a *FIRST* Tech Challenge competition robot.  To use this SDK and contribute to our Team Code, download/clone the entire project to your local computer.
+This repository contains the FTC 11241 Blue Steel Team Code and FTC SDK in a single Android Studio project for the DECODE (2025-2026) competition season.
 
 ## Requirements
 To use this Android Studio project, you will need Android Studio Ladybug (2024.2) or later.
-
-To program your robot in Blocks or OnBot Java, you do not need Android Studio.
 
 ## Getting Started
 If you are new to robotics or new to the *FIRST* Tech Challenge, then you should consider reviewing the [FTC Blocks Tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html) to get familiar with how to use the control system:
