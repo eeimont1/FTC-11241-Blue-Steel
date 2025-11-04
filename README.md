@@ -1,5 +1,5 @@
 ## Welcome!
-This repository contains the FTC 11241 Blue Steel Team Code and FTC SDK in a single Android Studio project for the DECODE (2025-2026) competition season.
+This repository contains the FTC 11241 Blue Steel Android Studio project for the DECODE (2025-2026) competition season.
 
 ## Requirements
 To use this Android Studio project, you will need Android Studio Ladybug (2024.2) or later.
