@@ -91,6 +91,7 @@ If you are comfortable with the terminal, you can clone the repository using thi
 
 ```bash
 git clone [https://github.com/eeimont1/FTC-11241-Blue-Steel.git](https://github.com/eeimont1/FTC-11241-Blue-Steel.git)
+```
 
 ---
 
@@ -105,3 +106,4 @@ After you have cloned the repository to your computer, you need to open it corre
 5.  **Important:** Wait patiently for Android Studio to index files and for the "Gradle Sync" to complete. This can take several minutes. You can monitor its progress in the status bar at the bottom of the window.
 
 You only need to do this once. The project will now appear in your recent projects list.
+
