@@ -1,63 +1,93 @@
+# FTC Team 11241 "Blue Steel" - 2025-2026 Season
+
 ## Welcome!
-If you are programming, you are at the right place. This repo contains all of our team code for the 2025-2026 season.
+
+Welcome to the official code repository for the 2025-2026 season! This project contains all our team's robot code for the *FIRST* Tech Challenge.
 
 ## Requirements
-To use this Android Studio project, you will need Android Studio Ladybug (2024.2) or later. 
 
-## Installing Android Studio (a requirement)
+To work on this project, you will need **Android Studio Ladybug (2024.2) or newer**.
 
-You can download it for Windows, macOS, or ChromeOS* here: https://developer.android.com/studio
+## Installation
 
-(*)=ChromeOS device must be compataible with the Linux development environment (found in settings) and allow for it (the allowing part only applies to managed Chromebooks, like school Chromebooks.)
+You must install Android Studio on your computer to contribute code.
 
+* **Windows / macOS:**
+    * Download and install from the [Android Studio website](https://developer.android.com/studio).
 
-Additonally for Linux users, you can also get Android Studio by using one of these commands in the terminal based on your distro, if your distro is not listed use Google:
+* **ChromeOS:**
+    * Your device must be compatible with the Linux development environment.
+    * You may need to enable this in your settings. (On managed school Chromebooks, you might need admin permission).
 
+* **Linux (via Snap):**
+    * Open your terminal and run the commands for your distribution.
 
-Ubuntu/Debian: sudo apt update -y && sudo apt install -y snapd && sudo snap install core && sudo snap install android-studio --classic
-    
-Fedora: sudo dnf install -y snapd && sudo systemctl enable snapd.socket && sudo ln -s /var/lib/snapd/snap /snap && sudo snap install core && sudo snap install android-studio --classic
+    * **Ubuntu/Debian:**
+        ```bash
+        sudo apt update -y && sudo apt install -y snapd
+        sudo snap install core
+        sudo snap install android-studio --classic
+        ```
 
-Arch: sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/snapd.git && cd snapd && makepkg -si --noconfirm && sudo systemctl enable --now snapd.socket && sudo ln -s /var/lib/snapd/snap /snap && sudo snap install core && sudo snap install android-studio --classic
+    * **Fedora:**
+        ```bash
+        sudo dnf install -y snapd
+        sudo systemctl enable --now snapd.socket
+        sudo ln -s /var/lib/snapd/snap /snap
+        sudo snap install core
+        sudo snap install android-studio --classic
+        ```
 
-openSUSE: sudo zypper addrepo --refresh https://download.opensuse.org/repositories/system:/snappy/openSUSE_Tumbleweed snappy && sudo zypper --gpg-auto-import-keys refresh && sudo zypper dup --from snappy --no-confirm && sudo zypper install -y snapd && sudo systemctl enable --now snapd.socket && sudo systemctl enable --now snapd.apparmor && sudo snap install core && sudo snap install android-studio --classic
+    * **Arch:**
+        ```bash
+        sudo pacman -S --needed git base-devel
+        git clone [https://aur.archlinux.org/snapd.git](https://aur.archlinux.org/snapd.git)
+        cd snapd
+        makepkg -si --noconfirm
+        sudo systemctl enable --now snapd.socket
+        sudo ln -s /var/lib/snapd/snap /snap
+        sudo snap install core
+        sudo snap install android-studio --classic
+        ```
 
+    * **openSUSE:**
+        ```bash
+        sudo zypper addrepo --refresh [https://download.opensuse.org/repositories/system:/snappy/openSUSE_Tumbleweed](https://download.opensuse.org/repositories/system:/snappy/openSUSE_Tumbleweed) snappy
+        sudo zypper --gpg-auto-import-keys refresh
+        sudo zypper dup --from snappy --no-confirm
+        sudo zypper install -y snapd
+        sudo systemctl enable --now snapd.socket
+        sudo systemctl enable --now snapd.apparmor
+        sudo snap install core
+        sudo snap install android-studio --classic
+        ```
 
-## Getting Started
-If you are new to robotics or new to the *FIRST* Tech Challenge, then you should consider taking a look at the [FTC Blocks Tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html) to get familiar with how to use the control system:
+---
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[FTC Blocks Online Tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html)
+## Getting Started with programming
 
-Even if you are an advanced Java programmer, it is helpful to start with the [FTC Blocks tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html), and then migrate to the [OnBot Java Tool](https://ftc-docs.firstinspires.org/programming_resources/onbot_java/OnBot-Java-Tutorial.html) or to [Android Studio](https://ftc-docs.firstinspires.org/programming_resources/android_studio_java/Android-Studio-Tutorial.html) afterwards.
+If you are new to programming for FTC, we recommend following looking at these resources:
 
-## Downloading the Project
-If you are an Android Studio programmer, there are several ways to download this repo.
+1.  **FTC Blocks:** Start with the [Blocks Tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html).
+2.  **OnBot Java:** Once comfortable, you can look at the [OnBot Java Tutorial](https://ftc-docs.firstinspires.org/programming_resources/onbot_java/OnBot-Java-Tutorial.html).
+3.  **Android Studio:** This is what we use. Follow the [Android Studio Tutorial](https://ftc-docs.firstinspires.org/programming_resources/android_studio_java/Android-Studio-Tutorial.html).
 
-* If you are a git user, you can clone the most current version of the repository using the terminal (Linux) or Command Prompt (Windows):
+---
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git clone https://github.com/eeimont1/FTC-11241-Blue-Steel.git</p>
+## Getting the Code
 
-## Getting Help
-### User Documentation and Tutorials
-*FIRST* maintains online documentation with information and tutorials on how to use the *FIRST* Tech Challenge software and robot control system.  You can access this documentation using the following link:
+There are a few ways to get this project onto your computer.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[FIRST Tech Challenge Documentation](https://ftc-docs.firstinspires.org/index.html)
+### 1. GitHub Desktop (Recommended)
 
-Note that the online documentation is an "evergreen" document that is constantly being updated and edited.  It contains the most current information about the *FIRST* Tech Challenge software and control system.
+This is the easiest way to clone the repository and sync your changes.
+1.  Download [GitHub Desktop](https://desktop.github.com/).
+2.  In the app, go to **File > Clone Repository**.
+3.  Select the `eeimont1/FTC-11241-Blue-Steel` repository to clone it.
 
-### Javadoc Reference Material
-The Javadoc reference documentation for the FTC SDK is now available online.  Click on the following link to view the FTC SDK Javadoc documentation as a live website:
+### 2. Using `git clone` (Advanced)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[FTC Javadoc Documentation](https://javadoc.io/doc/org.firstinspires.ftc)
+If you are comfortable with the terminal, you can clone the repository using this command:
 
-### Online User Forum
-For technical questions regarding the Control System or the FTC SDK, please visit the FIRST Tech Challenge Community site:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[FIRST Tech Challenge Community](https://ftc-community.firstinspires.org/)
-
-### Sample OpModes
-This project contains a large selection of Sample OpModes from the FTC SDK (robot code examples) which can be cut and pasted into our /TeamCode folder to be used as-is, or modified.
-
-Samples Folder: &nbsp;&nbsp; [/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples](FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples)
-
-The readme.md file located in the [/TeamCode/src/main/java/org/firstinspires/ftc/teamcode](TeamCode/src/main/java/org/firstinspires/ftc/teamcode) folder contains an explanation of the sample naming convention, and instructions on how to copy them to our project space.
+```bash
+git clone [https://github.com/eeimont1/FTC-11241-Blue-Steel.git](https://github.com/eeimont1/FTC-11241-Blue-Steel.git)
