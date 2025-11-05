@@ -1,8 +1,8 @@
-# FTC Team 11241 "Blue Steel" - 2025-2026 Season
+# FTC Team 11241 Blue Steel
 
 ## Welcome!
 
-Welcome to the official code repository for the 2025-2026 season! This project contains all our team's robot code for the *FIRST* Tech Challenge.
+Welcome to the official code repository for the 2025-2026 season! This project contains all our team code for 2025-2026.
 
 ## Requirements
 
