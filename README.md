@@ -74,36 +74,16 @@ If you are new to programming for FTC, we recommend following looking at these r
 
 ---
 
-## Getting the Code
-
-There are a few ways to get this project onto your computer.
-
-### 1. GitHub Desktop (Recommended)
-
-This is the easiest way to clone the repository and sync your changes.
-1.  Download [GitHub Desktop](https://desktop.github.com/).
-2.  In the app, go to **File > Clone Repository**.
-3.  Select the `eeimont1/FTC-11241-Blue-Steel` repository to clone it.
-
-### 2. Using `git clone` (Advanced)
-
-If you are comfortable with the terminal, you can clone the repository using this command:
-
-```bash
-git clone [https://github.com/eeimont1/FTC-11241-Blue-Steel.git](https://github.com/eeimont1/FTC-11241-Blue-Steel.git)
-```
-
----
-
 ## Importing the Project in Android Studio
 
-After you have cloned the repository to your computer, you need to open it correctly in Android Studio.
+This is how you get the code and contribute.
 
-1.  Open Android Studio.
-2.  From the welcome screen, select **Open**. (If you already have another project open, go to **File > Open...**).
-3.  Navigate to the folder where you cloned the repository (e.g., `.../GitHub/FTC-11241-Blue-Steel`).
-4.  Select the root folder (the one with `build.gradle` in it) and click **OK**.
-5.  **Important:** Wait patiently for Android Studio to index files and for the "Gradle Sync" to complete. This can take several minutes. You can monitor its progress in the status bar at the bottom of the window.
+
+1.  Verify Git is installed on your system, Google has resources on how to install it if needed.
+2.  Open Android Studio.
+3.  From the welcome screen, select **Clone Repository**.
+4.  Use the URL `https://github.com/eeimont1/FTC-11241-Blue-Steel`.
+5.  Wait for Android Studio to pull from the repository.
+6.  **Important:** Wait patiently for Android Studio to index files and for the "Gradle Sync" to complete. This can take several minutes. You can monitor its progress in the status bar at the bottom of the window.
 
 You only need to do this once. The project will now appear in your recent projects list.
-
