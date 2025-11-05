@@ -3,6 +3,7 @@ If you are programming, you are at the right place. This repo contains all of ou
 
 ## Requirements
 To use this Android Studio project, you will need Android Studio Ladybug (2024.2) or later. You can download it for Windows, macOS, Linux, or ChromeOS* here: https://developer.android.com/studio
+
 (*)=ChromeOS device must be compataible with the Linux development environment (found in settings) and allow for it (the allowing part only applies to managed Chromebooks, like school Chromebooks.)
 
 ## Getting Started
