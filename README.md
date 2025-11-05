@@ -1,8 +1,9 @@
 ## Welcome!
-This repository contains the FTC 11241 Blue Steel Android Studio project for the DECODE (2025-2026) competition season.
+If you are programming, you are at the right place. This repo contains all of our team code for the 2025-2026 season.
 
 ## Requirements
-To use this Android Studio project, you will need Android Studio Ladybug (2024.2) or later.
+To use this Android Studio project, you will need Android Studio Ladybug (2024.2) or later. You can download it for Windows, macOS, Linux, or ChromeOS* here: https://developer.android.com/studio
+(*)=ChromeOS device must be compataible with the Linux development environment (found in settings) and allow for it (the allowing part only applies to managed Chromebooks, like school Chromebooks.)
 
 ## Getting Started
 If you are new to robotics or new to the *FIRST* Tech Challenge, then you should consider reviewing the [FTC Blocks Tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html) to get familiar with how to use the control system:
