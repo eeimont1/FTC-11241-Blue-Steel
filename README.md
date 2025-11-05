@@ -2,12 +2,29 @@
 If you are programming, you are at the right place. This repo contains all of our team code for the 2025-2026 season.
 
 ## Requirements
-To use this Android Studio project, you will need Android Studio Ladybug (2024.2) or later. You can download it for Windows, macOS, Linux, or ChromeOS* here: https://developer.android.com/studio
+To use this Android Studio project, you will need Android Studio Ladybug (2024.2) or later. 
+
+## Installing Android Studio (a requirement)
+
+You can download it for Windows, macOS, or ChromeOS* here: https://developer.android.com/studio
 
 (*)=ChromeOS device must be compataible with the Linux development environment (found in settings) and allow for it (the allowing part only applies to managed Chromebooks, like school Chromebooks.)
 
+
+Additonally for Linux users, you can also get Android Studio by using one of these commands in the terminal based on your distro, if your distro is not listed use Google:
+
+
+Ubuntu/Debian: sudo apt update -y && sudo apt install -y snapd && sudo snap install core && sudo snap install android-studio --classic
+    
+Fedora: sudo dnf install -y snapd && sudo systemctl enable snapd.socket && sudo ln -s /var/lib/snapd/snap /snap && sudo snap install core && sudo snap install android-studio --classic
+
+Arch: sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/snapd.git && cd snapd && makepkg -si --noconfirm && sudo systemctl enable --now snapd.socket && sudo ln -s /var/lib/snapd/snap /snap && sudo snap install core && sudo snap install android-studio --classic
+
+openSUSE: sudo zypper addrepo --refresh https://download.opensuse.org/repositories/system:/snappy/openSUSE_Tumbleweed snappy && sudo zypper --gpg-auto-import-keys refresh && sudo zypper dup --from snappy --no-confirm && sudo zypper install -y snapd && sudo systemctl enable --now snapd.socket && sudo systemctl enable --now snapd.apparmor && sudo snap install core && sudo snap install android-studio --classic
+
+
 ## Getting Started
-If you are new to robotics or new to the *FIRST* Tech Challenge, then you should consider reviewing the [FTC Blocks Tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html) to get familiar with how to use the control system:
+If you are new to robotics or new to the *FIRST* Tech Challenge, then you should consider taking a look at the [FTC Blocks Tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html) to get familiar with how to use the control system:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[FTC Blocks Online Tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html)
 
@@ -16,13 +33,9 @@ Even if you are an advanced Java programmer, it is helpful to start with the [FT
 ## Downloading the Project
 If you are an Android Studio programmer, there are several ways to download this repo.
 
-* If you are a git user, you can clone the most current version of the repository:
+* If you are a git user, you can clone the most current version of the repository using the terminal (Linux) or Command Prompt (Windows):
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git clone https://github.com/eeimont1/FTC-11241-Blue-Steel.git</p>
-
-* Or, if you prefer, you can use the "Download Zip" button available through the main repository page.  Downloading the project as a .ZIP file will keep the size of the download manageable.
-
-Once you have downloaded and uncompressed (if needed) your folder, you can use Android Studio to import the folder  ("Import project (Eclipse ADT, Gradle, etc.)").
 
 ## Getting Help
 ### User Documentation and Tutorials
